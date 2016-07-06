@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Index</title>
+	<link rel="stylesheet" type="text/css" href="slider.css">
+	<script type="text/javascript" src="jquery-3.0.0.min.js"></script>
+	<script type="text/javascript" src="jquery.cycle2.min.js"></script>
+	<link href='https://fonts.googleapis.com/css?family=Montserrat:700' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Raleway:400,300' rel='stylesheet' type='text/css'>
+	<script type="text/javascript" src="jquery.cycle.all.js"></script>
+	<script type="text/javascript" src="slider.js"></script>
+
+	<script type="text/javascript">
+		
+		$(function () {
+
+	$('#sliders').cycle({
+		fx:    'scrollHorz',
+		next:   '#next',
+		prev:    '#prev',
+		pager:  '#pager',
+		timeout:   6000,
+		speed:     800  
+
+
+
+	});
+
+	$('#play').click(function () {
+		$('#sliders').cycle('resume'); return false;
+	});
+
+
+$('#pause').click(function () {
+		$('#sliders').cycle('pause'); return false;
+	});
+
+
+
+});
+	</script>
+</head>
+<body>
+<div id="bg">
+<div>
+	<h1 id="header">Month_a_versary</h1><p>Here's the 10th One!</p>
+</div>
+<div id="hero">
+	<div id="pager"></div>
+	<div id="play">&Delta;</div>
+	<div id="pause">&asymp;</div>
+	<div id="next">&rang;</div>
+	<div id="prev">&lang;</div>
+
+	<div id="sliders">
+
+		<div class="images">
+			<img src="1.jpg">
+			
+		</div>
+		<div class="images">
+			<img src="2.jpg">
+			<div class="info">
+			<h2>The First DATE!</h2>
+			<p>Welcome Back gave a grand welcome to our relationship!</p>
+		</div>
+		</div>
+		
+
+		<div class="images">
+			<img src="3.jpg">
+			<div class="info">
+			<h2>The First walk!</h2>
+			<p>Yes the first walk where you took me to Krishna Temple!</p>
+		</div>
+		</div>
+		<div class="images">
+			<img src="4.jpg">
+			<div class="info">
+			<h2>The Dinner!</h2>
+			<p>The Crazy Bite Noodles!</p>
+		</div>
+		</div>
+		<div class="images">
+			<img src="5.jpg">
+			<div class="info">
+			<h2>The Rain!</h2>
+			<p>Oh! How to forget that! Your effort thank you so much for that auto ride!</p>
+		</div>
+		</div>
+		<div class="images">
+			<img src="6.jpg">
+			<div class="info">
+			<h2>Dumas!</h2>
+			<p>The day we had our first peck!</p>
+		</div>
+		</div>
+		<div class="images">
+			<img src="7.jpg">
+			<div class="info">
+			<h2>The Spiderman kiss!</h2>
+			<p>This one at Lake View, at Dutch Garden and JNG!</p>
+		</div>
+		</div>
+		<div class="images">
+			<img src="8.jpg">
+			<div class="info">
+			<h2>Was it Heavy XD !</h2>
+			<p>At Lake View and FLORAL!</p>
+		</div>
+		</div>
+		<div class="images">
+			<img src="9.jpg">
+			<div class="info">
+			<h2>Key to Happiness</h2>
+			<p>Our first Valentine's Day where I handed u my key of happiness!</p>
+		</div>
+		</div>
+		<div class="images">
+			<img src="10.jpg">
+			<div class="info">
+			<h2>This kiss!</h2>
+			<p>WHen u give this kiss, it feels that amazing that is beyond description!</p>
+		</div>
+		</div>
+		<div class="images">
+			<img src="11.jpg">
+			
+		</div>
+		<div class="images">
+			<img src="12.png">
+			
+		</div>
+
+		<div >
+			<p id="tp">sdfdfds</p>
+		</div>
+	</div>
+</div>
+
+</div>
+</body>
+</html>

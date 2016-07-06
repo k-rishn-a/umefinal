@@ -1,0 +1,182 @@
+@charset "utf-8"
+@import url(reset.css);
+@import url(autocomplete.css);
+@import url(screen.css);
+
+#tp {
+	color: #8b0000;
+}
+
+img {
+	width: 700px;
+	height: 400px;
+	margin-bottom: 50px;
+}
+
+p { padding-left: 320px;
+	color: #d4d4d4;
+}
+
+#pad {
+	padding-left: 320px;
+	position: relative;
+	bottom: 20px;
+}
+#header {
+	padding-left: 320px;
+	color: #fff;
+	font-size: 50px;
+font-family: 'Raleway', sans-serif;
+	padding-top: 20px;
+}
+#chotu {
+	width: 100px;
+	height: 80px;
+}
+
+#hero {
+	width: 700px;
+	height: 450px;
+	display: block;
+	position: relative;
+	margin: auto;
+}
+
+#sliders {
+	width: 700px;
+	height: 450px;
+	display: block;
+	position: absolute;
+	overflow: hidden;
+
+}
+
+#bg {
+	background-color: #8B0000;
+}
+.info {
+	width: 700px;
+	height: 80px;
+	display: block;
+	position: relative;
+	bottom: 130px;
+	background-color: #fff;
+	opacity: 0.8;
+	z-index: 99;
+}
+
+.info h2 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	padding: 10px 0 0 10px;
+	color: #000;
+
+
+}
+
+.info p {
+	font-family: 'Raleway', sans-serif;
+	font-weight: bold;
+	padding: 0 0 0 10px;
+	line-height: 1px;
+	color: #000;
+	font-size: 18px;
+}
+
+#play {
+	display: block;
+	position: absolute;
+	top: 0;
+	right: 0;
+		background-color: #fff;
+	opacity: 0.6;
+	color: #000;
+	height: 40px;
+	width: 40px;
+	cursor: pointer;
+	text-align: center;
+	line-height: 40px; 
+z-index: 999;
+transform: rotate(90deg);
+-webkit-transform: rotate(90deg);
+font-weight: bold;
+}
+
+#pause {
+	display: block;
+	position: absolute;
+	top: 0;
+	right: 80px;
+	height: 40px;
+	width: 40px;
+	text-align: center;
+	line-height: 40px;
+		background-color: #fff;
+	opacity: 0.6;
+	color: #000;
+	z-index: 999;
+	transform: rotate(90deg);
+	-webkit-transform: rotate(90deg);
+	cursor: pointer;
+	font-weight: bold;
+}
+
+#next {
+	display: block;
+	position: absolute;
+	font-weight: bold;
+	top: 200px;
+	right: 0;
+	height: 40px;
+	width: 40px;
+	text-align: center;
+	line-height: 40px;
+		background-color: #fff;
+	opacity: 0.6;
+	color: #000;
+	cursor: pointer;
+	z-index: 999;
+}
+
+#prev {
+	display: block;
+	font-weight: bold;
+	position: absolute;
+	top: 200px;
+	right: 660px;
+	height: 40px;
+	width: 40px;
+	text-align: center;
+	line-height: 40px;
+		background-color: #fff;
+	opacity: 0.6;
+	color: #000;
+	z-index: 999;
+	cursor: pointer;
+}
+
+#pager{
+	display: block;
+	position: absolute;
+	text-align: center;
+	z-index: 999;
+	width: 100%;
+}
+
+#pager a {
+	font-size: .0em;
+	color: transparent; 
+	display: inline-block;
+	position: relative;
+	margin: 5px;
+	background-color: transparent;
+	border-radius: 20px;
+	border: 1px solid #fff;
+	height: 10px;
+	width: 10px;
+}
+
+#pager a.activeSlide {
+
+	background-color: #fff;
+}
